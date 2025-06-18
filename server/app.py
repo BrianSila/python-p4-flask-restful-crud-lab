@@ -78,7 +78,7 @@ class PlantByID(Resource):
 
         return make_response('',204)
 
-api.add_resource(PlantByID, '/plants/<int:id>')git add .
+api.add_resource(PlantByID, '/plants/<int:id>')
 
 
 if __name__ == '__main__':
